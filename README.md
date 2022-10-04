@@ -15,6 +15,26 @@ Links to relevant API Documentation:
 - https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 - https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end
 
+### Project Structure
+
+```bash
+data-512-homework_1
+├── data
+│   ├── dinosaur_genera.cleaned.SEPT.2022.csv
+│   ├── dino_monthly_desktop_201501-202209.json
+│   ├── dino_monthly_mobile_201501-202209.json
+│   └── dino_monthly_cumulative_201501-202209.json
+├── results
+│   ├── maximum_minimum_average.png
+│   ├── top_ten_peaks.png
+│   └── fewest_months.png
+├── source
+│   ├── data_acquisition.ipynb
+│   └── data analysis.ipynb
+├── LICENSE
+└── README.md
+ ```
+
 ### File Descriptions
 
 - dinosaur_genera.cleaned.SEPT.2022.csv: A CSV file conatining the list of DInosaur pages from Wikipedia.
