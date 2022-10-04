@@ -51,4 +51,3 @@ data-512-homework_1
 **source**:
 - *data_acquisition.ipynb* : In this notebook, the data is obtained using the pageviews API.  The counts of pageviews are collected for a set of Dinosaur pages from Wikipedia.
 - *data analysis.ipynb* : In this notebook, basic data visual analysis is performed to graph the Dinosaur subset as a timeseries for Desktop and Mobile access type.
-
