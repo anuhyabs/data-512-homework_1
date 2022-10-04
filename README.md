@@ -37,12 +37,18 @@ data-512-homework_1
 
 ### File Descriptions
 
-- dinosaur_genera.cleaned.SEPT.2022.csv: A CSV file conatining the list of DInosaur pages from Wikipedia.
-- data_acquisition.ipynb: In this notebook, the data is obtained using the pageviews API.  The counts of pageviews are collected for a set of Dinosaur pages from Wikipedia.
-- dino_monthly_desktop_201501-202209.json: This file is obtained from the data_acquisition notebook and contains data on the monthly desktop page traffic.
-- dino_monthly_mobile_201501-202209.json: This file is obtained from the data_acquisition notebook and contains data on the monthly mobile app and web traffic.
-- dino_monthly_cumulative_201501-202209.json: This file is obtained from the data_acquisition notebook and contains data on the monthly cumulative (sum of all movile and all desktop) page traffic.
-- data analysis.ipynb: In this notebook, basic data visual analysis is performed to graph the Dinosaur subset as a timeseries for Desktop and Mobile access type.
-- maximum_minimum_average.png: Time series result for the articles that have the highest average page requests and the lowest average page requests for desktop access and mobile access.
-- top_ten_peaks.png : Time series result for the top 10 article pages by largest (peak) page views over the entire time by access type.
-- fewest_months.png:  Time series reult to show pages that have the fewest months of available data.
+**data**:
+- *dinosaur_genera.cleaned.SEPT.2022.csv* : A CSV file conatining the list of Dinosaur pages from Wikipedia.
+- *dino_monthly_desktop_201501-202209.json* : This file is obtained from the data_acquisition notebook and contains data on the monthly desktop page traffic.
+- *dino_monthly_mobile_201501-202209.json* : This file is obtained from the data_acquisition notebook and contains data on the monthly mobile app and web traffic.
+- *dino_monthly_cumulative_201501-202209.json* : This file is obtained from the data_acquisition notebook and contains data on the monthly cumulative (sum of all movile and all desktop) page traffic.
+
+**results**:
+- *maximum_minimum_average.png* : Time series result for the articles that have the highest average page requests and the lowest average page requests for desktop access and mobile access.
+- *top_ten_peaks.png* : Time series result for the top 10 article pages by largest (peak) page views over the entire time by access type.
+- *fewest_months.png* :  Time series result to show pages that have the fewest months of available data.
+
+**source**:
+- *data_acquisition.ipynb* : In this notebook, the data is obtained using the pageviews API.  The counts of pageviews are collected for a set of Dinosaur pages from Wikipedia.
+- *data analysis.ipynb* : In this notebook, basic data visual analysis is performed to graph the Dinosaur subset as a timeseries for Desktop and Mobile access type.
+
